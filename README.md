@@ -15,4 +15,8 @@
 6. Navigate into the "api" directory.
 7. Enter "json-server database.json -p 8088 -w" and press enter.
 8. In a new terminal tab, navigate into the "facultyPortal" directory.
-9. Navigate into the 
+9. Navigate into "client".
+10. Navigate into "hcbb-take-home-exam-bjh".
+11. Enter "npm install scripts".
+12. Enter "npm start".
+13. Enjoy! 
