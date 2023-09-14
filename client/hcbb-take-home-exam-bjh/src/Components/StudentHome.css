@@ -1,0 +1,164 @@
+html {
+  background-color: rgb(9, 38, 55);
+}
+
+.searchContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.searchCriteria {
+  display: flex;
+  gap: 15px;
+  margin-left: 6px;
+}
+
+.searchInput {
+  align-self: center;
+  margin-left: 35px;
+}
+
+#searchInput {
+  width: 150px;
+  height: 21px;
+}
+
+.searchError {
+  border: 1px solid red;
+}
+
+.studentHomeContainer {
+  padding: 20px;
+}
+
+.upperHomeContainer {
+  background-color: rgba(41, 38, 38, 0.943);
+  position: fixed;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 20px;
+  padding: 15px;
+  z-index: 100;
+}
+
+.criteriaContainer {
+  display: flex;
+  margin-left: 30px;
+  align-items: center;
+  gap: 10px;
+  color :#ccc
+}
+
+.createContainer {
+position: relative;
+display: inline-block;
+}
+
+.showCreateButton {
+  border: none;
+  border-radius: 3px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 14px;
+  padding: 6px 12px;
+  transition: background-color 0.3s;
+  margin-right: 30px;
+  margin-top: 10px;
+}
+
+.gradeFilterContainer {
+  margin-left: 10px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 10px;;
+}
+
+#gradeFilter {
+  background-color: rgb(142, 141, 141);
+}
+
+.showTodaysBirthdaysButton {
+  background-color: #007bff;
+  border: none;
+  border-radius: 3px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 14px;
+  padding: 6px 12px;
+  transition: background-color 0.3s;
+  margin-left: 50px;
+}
+
+.createForm {
+  margin-top: 10px;
+}
+
+.studentList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.noResultsNotification {
+  background-color: #222;
+  border: 1px solid #444;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  color: #ccc;
+  padding: 15px;
+  width: 350px;
+  text-align: center;
+}
+
+.lowerHomeContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 70px;
+}
+
+.searchCriteria select,
+.gradeFilterContainer select,
+.searchCriteria input,
+.gradeFilterContainer input {
+  padding: 5px;
+  border-radius: 3px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+.createContainer button {
+  background-color: #c45d18;
+  border: none;
+  border-radius: 3px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 14px;
+  padding: 6px 12px;
+}
+
+.createContainer input {
+  padding: 5px;
+  margin-top: 5px;
+  border-radius: 3px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+.resultsCount {
+  margin-left: 30px;
+  align-self: center;
+  border-radius: 3px;
+  color: #0baeae; 
+  font-size: 18px;
+  padding: 6px 12px;
+  text-decoration: double;
+}

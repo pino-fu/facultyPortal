@@ -1,0 +1,168 @@
+.studentCard {
+  background-color: #222;
+  border: 1px solid #444;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  color: #ccc;
+  display: inline-block;
+  margin: 10px;
+  padding: 15px;
+  width: 300px;
+}
+
+.studentInfo {
+  border-bottom: 1px solid rgba(0, 128, 128, 0.3);
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+  padding-bottom: 5px;
+}
+
+.studentName {
+  display: block;
+  margin: 0px auto 5px auto;
+}
+
+.studentAge,
+.studentDOB,
+.studentEmail,
+.studentIce {
+  font-size: 14px;
+  margin-bottom: 5px;
+  color: #ccc;
+}
+
+.studentLabel {
+  color: #0baeae; 
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+.buttonPanel {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: -15px;
+}
+
+.deleteButton,
+.editButton {
+  background-color: transparent;
+  border: none;
+  color: #ccc;
+  cursor: pointer;
+  font-size: 18px;
+  padding: 5px;
+  transition: color 0.3s;
+}
+
+.deleteButton:hover,
+.editButton:hover {
+  color: #008080;
+}
+
+.editPanel {
+  margin-top: 10px;
+}
+
+@keyframes drop-down-upwards {
+  0% {
+    opacity: 0;
+    transform: translateY(-420px) translateX(-50%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(-400px) translateX(-50%);
+  }
+}
+
+.studentCardFormContainer {
+  position: relative;
+}
+
+.editStudentForm {
+  background-color: #222;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  color: #ccc;
+  padding: 20px;
+  width: 280px;
+  animation: drop-down 0.3s ease-out forwards;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 20px;
+  width: 240px;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 10;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+}
+
+#DOB {
+  display: block;
+  margin: 10px auto 0px auto;
+}
+
+.editStudentFormTitle {
+  font-size: 18px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.form-group {
+  margin-bottom: 15px;
+  position: relative;
+}
+
+label {
+  display: block;
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+
+input.form-control {
+  background-color: #dbdada;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  color: #000000;
+  font-size: 13px;
+  padding: 6px 8px;
+  width: calc(100% - 16px);
+}
+
+input.form-control:focus {
+  border-color: #999;
+  outline: none;
+}
+
+.failIcon {
+  color: #f00;
+  font-size: 18px;
+  position: absolute;
+  right: 10px;
+  top: 28px;
+}
+
+.btn {
+  background-color: #007bff;
+  border: none;
+  border-radius: 3px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 14px;
+  padding: 6px 12px;
+  transition: background-color 0.3s;
+  display: block;
+  margin: 18px auto 0px auto;
+}
+
+.btn:hover {
+  background-color: #0069d9;
+}
+
+.btn:disabled {
+  background-color: #007bff;
+  cursor: not-allowed;
+  opacity: 0.5;
+}
