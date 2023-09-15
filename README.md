@@ -1,3 +1,4 @@
+![Screenshot](homepageScreenshot.png)
 # Faculty Portal Application
 
 ### This is a lightweight frontend CRUD application built using the React framework that simulates a student database. CRUD functionality, however, was not my main focus. 
